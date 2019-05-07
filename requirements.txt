@@ -1,0 +1,6 @@
+line-bot-sdk
+flask
+gunicorn
+redis
+requests
+numpy
