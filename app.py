@@ -105,7 +105,7 @@ def handle_things_event(event):
 
 # Can be replaced with the function in SDK
 def reply_with_request(event, msg):
-    url = 'https://api.line-beta.me/v2/bot/message/reply'
+    url = 'https://api.line.me/v2/bot/message/reply'
     payload = {"replyToken": event["replyToken"],
                "messages": [{"type": "text", "text": msg}]}
     headers = {'content-type': 'application/json',
